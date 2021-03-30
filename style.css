@@ -1,3 +1,72 @@
+
+/*.fa
+{
+   position: absolute;
+   top: 90%;
+   left: 45%;
+}*/
+
+.social:focus {
+    background-color: black;
+    font-size: 2.6rem;
+    opacity: 0.2;
+}
+
+.img-focus-effect:focus
+{
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    object-fit: cover;
+}
+.btn-atomic-tangerine:focus {
+    border: 1px solid #fff;
+    box-shadow: 3px 3px 3px 3px #fff;
+}
+.contrast-i-do
+{
+    font-weight: bolder;
+}
+.text-article
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.text-title-img
+{
+    font-size: 2.2rem;
+}
+.text-title2-img
+{
+    font-size: 2.2rem;
+}
+.text-citation-img
+{
+    font-size: 1.9rem;
+}
+.text-citation-author
+{
+    font-size: 1.4rem;
+}
+.focus-effect:focus
+{
+    border: 1px solid ;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.img-focus-effect:focus
+{
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    object-fit: cover;
+}
+.bold-link:focus {
+    font-size: 2rem;
+ }
+ .social > div {
+    margin-bottom: 20px;
+}
+/************************************************************************************************/
+
 body {
     margin: 0;
     padding: 0;
@@ -677,7 +746,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -702,7 +771,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
 }
+
 
 h2 {
     font-size: 22px;
@@ -771,7 +842,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: black;
 }
 
 .tc-white {
@@ -779,7 +850,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: black;
     color: #FFFFFF!important;
 }
 
@@ -822,7 +893,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
