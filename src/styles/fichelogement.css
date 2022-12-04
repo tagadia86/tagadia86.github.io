@@ -1,0 +1,14 @@
+.fichelogement{
+    width: 100%;
+}
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .fichelogement{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

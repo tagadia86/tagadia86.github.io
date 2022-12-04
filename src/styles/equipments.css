@@ -1,0 +1,63 @@
+
+.description1{
+    background-color: #F6F6F6;
+    width: 370px;
+    height: 140px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.title-button1{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    background-color: #FF6060;
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    align-items: center;
+    font-size: 11px;
+    padding: 0px 10px 0px 10px;
+}
+
+.description-close-button1{
+        background-color: #FF6060;
+        border-color: #FF6060;
+        color: white;
+}
+
+.description-open-button1{
+    background-color: #FF6060;
+    border-color: #FF6060;
+    color: white;
+}
+
+.equipments-list{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #FF6060;
+    padding: 0px 0px 0px 10px;
+    margin-top: 20px;
+    width: 94%;
+}
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .title-button1{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #FF6060;
+        color: white;
+        border-radius: 5px;
+        height: 25px;
+        align-items: center;
+        font-size: 11px;
+        padding: 0px 0px 0px 0px;
+        margin-bottom: 20px;
+    }
+    .description1{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

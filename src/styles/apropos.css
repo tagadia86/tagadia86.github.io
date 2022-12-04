@@ -1,0 +1,23 @@
+
+
+.apropos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-zones{
+    width: 100%;
+}
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .apropos{
+
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,11 @@
+
+/*MEDIA QUERIES*****************************************************/
+@media all and (max-width: 669px)
+{
+    .homepage{
+        margin: 15px;
+    }
+    
+}
+
+
